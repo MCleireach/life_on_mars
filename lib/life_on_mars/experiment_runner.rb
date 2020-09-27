@@ -3,6 +3,8 @@ require 'life_on_mars/plant'
 require 'life_on_mars/plants/hoppus_major'
 require 'life_on_mars/plants/taraxacum_vulgaris'
 require 'life_on_mars/plants/solanum_vodkorium'
+require 'life_on_mars/plants/laurus_nobilis'
+require 'life_on_mars/plants/agavoideae_ordinaris'
 require 'life_on_mars'
 
 class ExperimentRunner

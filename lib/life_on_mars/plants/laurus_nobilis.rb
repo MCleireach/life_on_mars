@@ -1,9 +1,9 @@
-class HoppusMajor < Plant
-  LIFE_SPAN = 5.freeze
-  SPECIMEN_NUMBER = 5.freeze
-  NEIGHBOUR_TOLERANCE = 3.freeze
-  AIRBOURNE_SEED_NUMBER = 0.freeze
-  CHANCE_OF_NEIGHBOURING_SEED = 0.5.freeze
+class LaurusNobilis < Plant
+  LIFE_SPAN = 2.freeze
+  SPECIMEN_NUMBER = 7.freeze
+  NEIGHBOUR_TOLERANCE = 2.freeze
+  AIRBOURNE_SEED_NUMBER = 10.freeze
+  CHANCE_OF_NEIGHBOURING_SEED = 0.3.freeze
 
   def age_one_day
     @age += 1

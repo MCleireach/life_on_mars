@@ -1,9 +1,9 @@
-class HoppusMajor < Plant
+class AgavoideaeOrdinaris < Plant
   LIFE_SPAN = 5.freeze
-  SPECIMEN_NUMBER = 5.freeze
-  NEIGHBOUR_TOLERANCE = 3.freeze
+  SPECIMEN_NUMBER = 10.freeze
+  NEIGHBOUR_TOLERANCE = 1/0.0.freeze
   AIRBOURNE_SEED_NUMBER = 0.freeze
-  CHANCE_OF_NEIGHBOURING_SEED = 0.5.freeze
+  CHANCE_OF_NEIGHBOURING_SEED = 0.1.freeze
 
   def age_one_day
     @age += 1

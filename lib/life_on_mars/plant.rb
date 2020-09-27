@@ -9,6 +9,10 @@ class Plant
     @age = 0
   end
 
+  def age_one_day
+    raise "Implement on subclass"
+  end
+
   def place(x, y)
     @x = x
     @y = y

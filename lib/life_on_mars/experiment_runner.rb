@@ -27,7 +27,7 @@ class ExperimentRunner
             propogate(plant, terrain)
           end
           iteract_with_neighbors(plant, terrain)
-          plant.pass_day
+          plant.age_one_day
         end
       end
 

@@ -2,10 +2,6 @@ class HoppusMajor < Plant
   LIFE_SPAN = 5
   attr_accessor
 
-  def pass_day
-    age_one_day
-  end
-
   def age_one_day
     @age += 1
     if @age == LIFE_SPAN

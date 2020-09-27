@@ -1,6 +1,6 @@
 class HoppusMajor < Plant
-  LIFE_SPAN = 5
-  attr_accessor
+  LIFE_SPAN = 5.freeze
+  SPECIMEN_NUMBER = 5.freeze
 
   def age_one_day
     @age += 1

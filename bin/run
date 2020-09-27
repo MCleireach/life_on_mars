@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+lib = File.expand_path("#{__dir__}/../lib", __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+
+require 'life_on_mars/experiment_runner'
+require 'life_on_mars/renderer/screen'
+
+ExperimentRunner.new(ARGV[0], ARGV[1].to_i, Renderer::Screen.new).run

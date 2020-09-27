@@ -1,7 +1,8 @@
 require 'life_on_mars/terrain'
 require 'life_on_mars/plant'
-require 'life_on_mars/hoppus_major'
-require 'life_on_mars/taraxacum_vulgaris'
+require 'life_on_mars/plants/hoppus_major'
+require 'life_on_mars/plants/taraxacum_vulgaris'
+require 'life_on_mars/plants/solanum_vodkorium'
 require 'life_on_mars'
 
 class ExperimentRunner

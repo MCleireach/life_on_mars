@@ -1,6 +1,7 @@
 class HoppusMajor < Plant
   LIFE_SPAN = 5.freeze
   SPECIMEN_NUMBER = 5.freeze
+  NEIGHBOUR_TOLERANCE = 3
 
   def age_one_day
     @age += 1

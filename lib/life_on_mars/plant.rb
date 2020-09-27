@@ -13,6 +13,10 @@ class Plant
     raise "Implement on subclass"
   end
 
+  def seed_neighbouring_slot?
+    raise "Implement on subclass"
+  end
+
   def place(x, y)
     @x = x
     @y = y
